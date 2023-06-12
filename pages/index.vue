@@ -2,5 +2,6 @@
   <!-- <Login /> -->
   <!-- <MainHome /> -->
   <!-- <HomeWithModal /> -->
-  <MobileLoginScreen />
+  <!-- <MobileLoginScreen /> -->
+  <MobileHomeScreen />
 </template>
