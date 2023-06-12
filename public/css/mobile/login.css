@@ -1,0 +1,26 @@
+@media only screen and (max-width: 576px) {
+  .mobile-wrapper {
+    position: relative;
+    min-height: 100vh;
+    max-height: 100vh;
+  }
+
+  .message-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    z-index: 10;
+  }
+
+  .message-icon img {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+  }
+
+  .login {
+    /* padding: 34px 22px; */
+    padding: 0 34px 34px 0;
+    height: 100vh;
+  }
+}

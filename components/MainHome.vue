@@ -28,7 +28,7 @@ export default {
     useHead({
       link: [
         {
-          href: "/css/screen1.css",
+          href: "/css/home.css",
           rel: "stylesheet",
         },
       ],
