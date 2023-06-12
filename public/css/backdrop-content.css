@@ -1,0 +1,44 @@
+.modal-wrapper {
+  padding: 35px 45px;
+}
+
+.modal-wrapper h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.para {
+  font-weight: 400;
+  margin-top: 22px;
+}
+
+.sub-heading {
+  margin-top: 35px;
+  padding-inline: 96px;
+  font-size: 14px;
+}
+
+.sub-heading img {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sub-heading h6 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.first,
+.second {
+  display: flex;
+  gap: 34px;
+  margin-bottom: 14px;
+}
+
+.first div,
+.second div {
+  display: flex;
+  flex-direction: column;
+}
