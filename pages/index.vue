@@ -1,7 +1,23 @@
 <template>
   <!-- <Login /> -->
-  <!-- <MainHome /> -->
+  <MainHome />
   <!-- <HomeWithModal /> -->
   <!-- <MobileLoginScreen /> -->
-  <MobileHomeScreen />
+  <!-- <MobileHomeScreen /> -->
+  <!-- <MobileDateScreen /> -->
 </template>
+
+<script>
+export default {
+  setup() {
+    useHead({
+      link: [
+        {
+          href: "/css/global.css",
+          rel: "stylesheet",
+        },
+      ],
+    });
+  },
+};
+</script>

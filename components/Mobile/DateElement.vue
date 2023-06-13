@@ -1,6 +1,5 @@
 <template>
   <div class="chat-wrapper d-flex flex-column" style="height: 100%">
-    <!-- Chat button -->
     <div class="new-chat">
       <button
         type="button"
@@ -13,16 +12,16 @@
         <img src="/images/arrow-down.png" alt="" />
       </span>
     </div>
-    <div class="mobile-line text-white"></div>
-    <!-- Question Answers -->
-    <div class="question-answer-layout" style="flex: 1">
-      <MobileQuestion />
-      <MobileAnswer />
-      <MobileQuestion />
-      <MobileAnswer />
+    <div class="text-white scroll" style="flex: 1; padding: 0px 27px 10px 27px">
+      <MainHomeDates />
+      <MainHomeDates />
+      <MainHomeDates />
     </div>
-    <!-- Question Input -->
+    <div class="mobile-line text-white"></div>
     <div class="" style="padding: 0px 20px 10px 20px">
+      <div style="padding: 15px 27px 0 27px">
+        <MainHomeSidebarFooter />
+      </div>
       <MobileQuestionInput />
     </div>
   </div>
@@ -35,6 +34,10 @@ export default {
       link: [
         {
           href: "/css/mobile/home.css",
+          rel: "stylesheet",
+        },
+        {
+          href: "/css/home.css",
           rel: "stylesheet",
         },
       ],

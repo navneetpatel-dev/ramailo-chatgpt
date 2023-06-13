@@ -1,0 +1,36 @@
+/* Login */
+.login-container {
+  max-height: 100vh;
+  min-height: 100vh;
+  max-width: 673px;
+  min-width: 673;
+}
+
+.form-heading {
+  margin-top: 90px;
+  max-width: 367px;
+  width: 367px;
+}
+
+.form-para {
+  font-weight: 400;
+}
+
+.inputfield {
+  height: 50px;
+  background-color: #ecebeb;
+}
+
+.loginbutton {
+  background-color: #f32e33;
+  height: 67px;
+}
+
+.registeredpara {
+  color: #afafaf;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+/* Main Home */

@@ -1,15 +1,9 @@
 <template>
-  <div
-    class="d-flex answertop"
-    style="background-color: #464242; position: relative; padding: 32px 0"
-  >
+  <div class="d-flex answertop">
     <div class="answer d-flex justify-content-between max-width">
       <div class="d-flex">
         <p class="rounded-letter rounded-3 align-self-start">W</p>
-        <p
-          class="align-self-center text-light"
-          style="font-size: 16px; font-weight: 400; margin-left: 15px"
-        >
+        <p class="align-self-center text-light answertext">
           This text introduces the concept of Work-Applied Learning (WAL), a
           model that focuses on learning through work-oriented projects and
           enables organizational learning, resulting in the creation and
@@ -27,7 +21,7 @@
         </p>
       </div>
     </div>
-    <div class="" style="position: absolute; right: 250px">
+    <div class="copy">
       <img src="/images/copy.png" alt="" />
     </div>
   </div>
